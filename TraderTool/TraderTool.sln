@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraderTool", "TraderTool\TraderTool.csproj", "{EB136B3C-6A93-49D4-BA10-B83E00CF3CF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TraderTool", "TraderTool\TraderTool.csproj", "{EB136B3C-6A93-49D4-BA10-B83E00CF3CF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trader_Config", "Trader_Config", "{60175547-0E28-4F6F-86DD-9FDCADA53B63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ARMA3V", "ARMA3V", "{AEA2527C-2964-474F-A96F-4D86686549C0}"
+	ProjectSection(SolutionItems) = preProject
+		ItemListARMA3V.hpp = ItemListARMA3V.hpp
+		TraderCategoriesARMA3V.hpp = TraderCategoriesARMA3V.hpp
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEA2527C-2964-474F-A96F-4D86686549C0} = {60175547-0E28-4F6F-86DD-9FDCADA53B63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D5012CE-1DA5-4E30-B087-50585458448D}
